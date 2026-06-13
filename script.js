@@ -1,0 +1,1 @@
+window.addEventListener('load',()=>document.querySelector('.fade').classList.add('visible'));
