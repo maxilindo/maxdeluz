@@ -1,1 +1,1 @@
-window.addEventListener('load',()=>document.querySelector('.fade').classList.add('visible'));
+const obs=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.intersectionRatio>0.72){entry.target.classList.add('visible')}else{entry.target.classList.remove('visible')}})},{threshold:[0,0.2,0.5,0.72,0.9]});document.querySelectorAll('.fade').forEach(el=>obs.observe(el));
