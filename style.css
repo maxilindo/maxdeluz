@@ -13,7 +13,7 @@ body{margin:0;background:#000;color:#fff;font-family:Poppins,sans-serif;}nav{pos
 
 @media (max-width: 768px) {
     .about-image {
-        margin-top: 60px;
+        margin-top: 20px;
     }
 
     .about-image img {
