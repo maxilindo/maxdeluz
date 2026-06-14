@@ -1,18 +1,1 @@
-const obs = new IntersectionObserver(
-    entries => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-            } else {
-                entry.target.classList.remove('visible');
-            }
-        });
-    },
-    {
-        threshold: 0.1
-    }
-);
-
-document.querySelectorAll('.fade').forEach(el => {
-    obs.observe(el);
-});
+const obs=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible')}else{entry.target.classList.remove('visible')}})},{threshold:0.1});document.querySelectorAll('.fade').forEach(el=>obs.observe(el));
