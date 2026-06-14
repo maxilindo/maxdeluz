@@ -180,7 +180,7 @@ button:hover {
 /* About image */
 
 .about-image {
-    margin-top: 20px;
+    margin-top: 0;
     display: flex;
     justify-content: center;
 }
@@ -202,11 +202,11 @@ button:hover {
     }
 
     .hero {
-        margin-bottom: 4vh;   /* Reduced from 12vh */
+        margin-bottom: 2vh;
     }
 
     section {
-        min-height: 45vh;     /* Reduced from 62vh */
+        min-height: 45vh;
     }
 
     .logo {
@@ -219,7 +219,7 @@ button:hover {
     }
 
     .enquire-belt {
-        margin-top: 4vh;      /* Reduced from 12vh */
+        margin-top: 4vh;
     }
 
     .belt h3,
@@ -243,7 +243,7 @@ button:hover {
     }
 
     .about-image {
-        margin-top: 20px;
+        margin-top: 0;
     }
 
     .about-image img {
