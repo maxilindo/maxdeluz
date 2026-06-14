@@ -62,13 +62,13 @@ section{
 .about-page h1,
 .enquire-page h1{
     font-size:76px;
-    font-weight:600;
+    font-weight:300;
     letter-spacing:-.02em;
     margin-bottom:18px;
 }
 
 .belt div{
-    max-width:720px;
+    max-width:900px;
 }
 
 .belt p,
