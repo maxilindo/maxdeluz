@@ -40,7 +40,7 @@ section{
     justify-content:center;
     align-items:center;
     text-align:center;
-    padding:120px 20px 40px;
+    padding:70px 20px 40px;
 }
 .logo{
     text-transform:uppercase;
@@ -86,7 +86,7 @@ section{
 
 .fade{
     opacity:0;
-    transition:opacity .45s ease-out;
+    transition:opacity .25s ease-out;
 }
 
 .fade.visible{
@@ -196,7 +196,7 @@ button:hover{
     }
 
     .hero{
-        min-height:90vh;
+        min-height:75vh;
     }
 
     .logo{
