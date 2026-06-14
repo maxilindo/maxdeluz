@@ -34,15 +34,14 @@ section{
 }
 
 .hero{
-    min-height:75vh;
+    min-height:95vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
     text-align:center;
-    padding:20px;
+    padding:120px 20px 40px;
 }
-
 .logo{
     text-transform:uppercase;
     font-size:143px;
