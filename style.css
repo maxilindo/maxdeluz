@@ -1,4 +1,185 @@
-body{margin:0;background:#000;color:#fff;font-family:Poppins,sans-serif;}nav{position:fixed;top:0;left:0;width:100%;padding:25px 0;background:#000;text-align:center;z-index:1000;}nav a{color:#fff;text-decoration:none;margin:0 24px;font-size:22px;font-weight:500;}section{min-height:62vh;display:flex;justify-content:center;align-items:center;text-align:center;padding:20px;}.hero{min-height:75vh;margin-bottom:14.5vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:20px;}.logo{text-transform:uppercase;font-size:110px;font-weight:600;line-height:.82;letter-spacing:-.04em;}.subtitle{margin-top:24px;color:#777;font-size:36px;font-weight:300;letter-spacing:-.02em;}.belt h3,.about-page h1,.enquire-page h1{font-size:38px;font-weight:600;letter-spacing:-.02em;margin-bottom:18px;}.belt div{max-width:720px;}.belt p,.enquire-link{font-size:22px;font-weight:500;color:#777;text-decoration:none;line-height:1.2;}.enquire-link:hover{color:#fff;}.enquire-belt{margin-top:14.5vh;}.fade{opacity:0;transition:opacity .45s ease-out;}.fade.visible{opacity:1;}.about-page,.enquire-page{padding:140px 20px 100px;display:flex;flex-direction:column;align-items:center;}.about-copy,.intro{max-width:900px;}.about-copy p,.intro{font-size:22px;font-weight:200;color:#777;line-height:1.2;letter-spacing:-.01em;text-align:center;margin:0 0 36px;}.enquiry-form{width:100%;max-width:420px;display:flex;flex-direction:column;}.enquiry-form label{font-size:14px;font-weight:300;color:#fff;margin-bottom:8px;}.enquiry-form input,.enquiry-form textarea{background:#000;border:1px solid #333;border-radius:10px;padding:16px;font-family:Poppins,sans-serif;font-size:16px;font-weight:300;color:#fff;margin-bottom:24px;}.enquiry-form input::placeholder,.enquiry-form textarea::placeholder{color:#777;}.enquiry-form textarea{height:140px;resize:none;}button{background:#fff;color:#000;border:none;border-radius:10px;padding:16px;font-family:Poppins,sans-serif;font-size:16px;font-weight:500;cursor:pointer;transition:opacity .2s;}button:hover{opacity:.85;}@media(max-width:768px){nav a{font-size:18px;margin:0 14px;}.hero{margin-bottom:12vh;}.logo{font-size:68px;}.subtitle{font-size:24px;margin-top:18px;}.enquire-belt{margin-top:12vh;}.belt h3,.about-page h1,.enquire-page h1{font-size:32px;}.belt div,.about-copy,.intro,.enquiry-form{max-width:90%;}.belt p,.enquire-link,.about-copy p,.intro{font-size:18px;}}.about-image {
+body {
+    margin: 0;
+    background: #000;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 0;
+    background: #000;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 24px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+section {
+    min-height: 62vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero {
+    min-height: 75vh;
+    margin-bottom: 14.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 110px;
+    font-weight: 600;
+    line-height: 0.82;
+    letter-spacing: -0.04em;
+}
+
+.subtitle {
+    margin-top: 24px;
+    color: #777;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+}
+
+.belt h3,
+.about-page h1,
+.enquire-page h1 {
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin-bottom: 18px;
+}
+
+.belt div {
+    max-width: 720px;
+}
+
+.belt p,
+.enquire-link {
+    font-size: 22px;
+    font-weight: 500;
+    color: #777;
+    text-decoration: none;
+    line-height: 1.2;
+}
+
+.enquire-link:hover {
+    color: #fff;
+}
+
+.enquire-belt {
+    margin-top: 14.5vh;
+}
+
+.fade {
+    opacity: 0;
+    transition: opacity 0.45s ease-out;
+}
+
+.fade.visible {
+    opacity: 1;
+}
+
+.about-page,
+.enquire-page {
+    padding: 140px 20px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-copy,
+.intro {
+    max-width: 900px;
+}
+
+.about-copy p,
+.intro {
+    font-size: 22px;
+    font-weight: 200;
+    color: #777;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin: 0 0 36px;
+}
+
+.enquiry-form {
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+}
+
+.enquiry-form label {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.enquiry-form input,
+.enquiry-form textarea {
+    background: #000;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 16px;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.enquiry-form input::placeholder,
+.enquiry-form textarea::placeholder {
+    color: #777;
+}
+
+.enquiry-form textarea {
+    height: 140px;
+    resize: none;
+}
+
+button {
+    background: #fff;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 16px;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+/* About image */
+
+.about-image {
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -11,7 +192,56 @@ body{margin:0;background:#000;color:#fff;font-family:Poppins,sans-serif;}nav{pos
     display: block;
 }
 
+/* Mobile */
+
 @media (max-width: 768px) {
+
+    nav a {
+        font-size: 18px;
+        margin: 0 14px;
+    }
+
+    .hero {
+        margin-bottom: 4vh;   /* Reduced from 12vh */
+    }
+
+    section {
+        min-height: 45vh;     /* Reduced from 62vh */
+    }
+
+    .logo {
+        font-size: 68px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+        margin-top: 18px;
+    }
+
+    .enquire-belt {
+        margin-top: 4vh;      /* Reduced from 12vh */
+    }
+
+    .belt h3,
+    .about-page h1,
+    .enquire-page h1 {
+        font-size: 32px;
+    }
+
+    .belt div,
+    .about-copy,
+    .intro,
+    .enquiry-form {
+        max-width: 90%;
+    }
+
+    .belt p,
+    .enquire-link,
+    .about-copy p,
+    .intro {
+        font-size: 18px;
+    }
+
     .about-image {
         margin-top: 20px;
     }
