@@ -76,8 +76,14 @@ section{
     font-size:22px;
     font-weight:200;
     color:#BDBDBD;
-    text-decoration:none;
     line-height:1.2;
+}
+
+.enquire-link{
+    text-decoration:underline;
+    text-underline-offset:5px;
+    text-decoration-thickness:1px;
+    transition:color .25s ease;
 }
 
 .enquire-link:hover{
@@ -176,7 +182,7 @@ button:hover{
 }
 
 .about-image{
-    margin-top:0;
+    margin-top:-36;
     display:flex;
     justify-content:center;
 }
