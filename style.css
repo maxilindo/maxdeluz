@@ -86,13 +86,17 @@ section{
 
 .fade{
     opacity:0;
-    transition:opacity .25s ease-out;
+    transform:translateY(20px);
+    transition:
+        opacity .45s ease,
+        transform .45s ease;
+    will-change: opacity, transform;
 }
 
 .fade.visible{
     opacity:1;
+    transform:translateY(0);
 }
-
 .about-page,
 .enquire-page{
     padding:140px 20px 100px;
